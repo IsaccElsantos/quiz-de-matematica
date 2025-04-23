@@ -1,0 +1,93 @@
+<!DOCTYPE html> <!-- Declaração do tipo de documento HTML5 -->
+<html lang="pt-BR"> <!-- Define o idioma da página como português do Brasil -->
+
+<head>
+  <meta charset="UTF-8"> <!-- Define a codificação de caracteres para suportar acentuação -->
+  <title>Quiz de Matematica</title> <!-- Título exibido na aba do navegador -->
+  <link rel="stylesheet" href="plural.css"> <!-- Link para um arquivo CSS externo (não utilizado neste trecho) -->
+
+  <!-- Estilos CSS aplicados diretamente na página -->
+  <style>
+    body {
+      margin: 0;
+      /* Remove as margens padrão do navegador */
+      font-family: 'Comic Sans MS', cursive;
+      /* Define a fonte do texto */
+      background: linear-gradient(to right, #ffcc00, #ff9900);
+      /* Degradê de fundo da esquerda para direita */
+      height: 100vh;
+      /* Altura total da janela de visualização */
+      display: flex;
+      /* Usa flexbox para centralizar conteúdo */
+      justify-content: center;
+      /* Centraliza horizontalmente */
+      align-items: center;
+      /* Centraliza verticalmente */
+    }
+
+    #start-card {
+      background: #111;
+      /* Fundo preto quase total */
+      color: white;
+      /* Cor do texto */
+      padding: 40px;
+      /* Espaçamento interno */
+      border-radius: 20px;
+      /* Bordas arredondadas */
+      text-align: center;
+      /* Centraliza o conteúdo de texto */
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      /* Sombra ao redor do card */
+    }
+
+    #start-card h2 {
+      font-size: 2rem;
+      /* Tamanho do título */
+      margin-bottom: 10px;
+      /* Espaçamento inferior */
+    }
+
+    #start-card p {
+      font-size: 1rem;
+      /* Tamanho do texto de instrução */
+      margin-bottom: 20px;
+      /* Espaço antes do botão */
+    }
+
+    #start-card button {
+      padding: 10px 20px;
+      /* Espaçamento interno do botão */
+      font-size: 1.1rem;
+      /* Tamanho da fonte do botão */
+      background-color: #007bff;
+      /* Cor de fundo (azul) */
+      color: white;
+      /* Cor da fonte */
+      border: none;
+      /* Sem borda */
+      border-radius: 10px;
+      /* Bordas arredondadas */
+      cursor: pointer;
+      /* Mostra o ponteiro de clique ao passar o mouse */
+      transition: background-color 0.3s ease;
+      /* Suaviza a transição da cor ao passar o mouse */
+    }
+
+    #start-card button:hover {
+      background-color: #0056b3;
+      /* Cor quando o mouse passa por cima */
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Card inicial exibido ao abrir a página -->
+  <div id="start-card">
+    <h2>Quiz de Matematica</h2> <!-- Título do card -->
+    <p>Responda o máximo de perguntas possivéis e teste sua capacidade!</p> <!-- Instrução para o jogador -->
+    <!-- Botão que redireciona para o jogo quando clicado -->
+    <button onclick="window.location.href='quizmatematica.html'">Começar</button>
+  </div>
+</body>
+
+</html>

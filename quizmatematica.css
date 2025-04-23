@@ -1,0 +1,60 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(to top, #fceabb, #f8b500);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .quiz-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  .question {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .answers button {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    background: #fdbc7e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .answers button:hover {
+    background: #ff6600;
+  }
+
+  #next-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #ff9100;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+  }
+
+  #result {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  
